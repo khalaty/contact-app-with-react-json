@@ -1,0 +1,38 @@
+.item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(27, 10, 121);
+    color: rgb(253, 253, 253);
+    padding: 10px 20px;
+    margin: 15px;
+    border-radius: 10px;
+}
+.item p {
+    flex-basis: 0;
+    flex-grow: 1;
+}
+.item span {
+    display: inline-block;
+    font-size: 1.3rem;
+    text-align: center;
+    margin-right: 10px;
+    background-color: #fff;
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+    border-radius: 50%;
+}
+.item button {
+    width: auto;
+    background-color: #fff;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-left: 4px;
+    transition: 0.2s all ease-in-out;
+}
+.item button:hover {
+    background-color: #000;
+    color: #fff;
+}
